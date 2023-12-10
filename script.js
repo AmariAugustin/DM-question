@@ -52,7 +52,7 @@ async function transition(data, filter) {
 function displayQuestion(questions) {
     let container = document.getElementById("questions");
     console.log(container);
-    if (container !== null) {
+    if (container != null) {
         container.remove();
     }
     container = document.createElement('div');
